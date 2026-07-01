@@ -1,12 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- Code Here -->
-</body>
+    <!-- HEADER / NAVIGATION  -->
+    <header class="main-header">
+      <nav class="nav-container">
+        <a href="#" class="nav-logo">The Grwoth Log</a>
+        <div class="nav-links">
+          <a href="#showcase">Galery Karya</a>
+          <a href="#tracker">Learning Tracker</a>
+        </div>
+        <a href="https://Linkedin.com" target="_blank" class="nav-call-center"
+          ><span>Tempat diskusi</span></a
+        >
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="container">
+      <!-- SECTION 1. ABOUT & EXPERIMENT -->
+      <section class="hero-section">
+        <article class="biodata-card">
+          <h1>The Grwoth Log</h1>
+          <p class="subtitle">A Journey of Continuous Learning & Creativity</p>
+          <p>
+            Wellcome to My Web Log! Web ini merupakan jurnal akuntabilitas
+            sekaligus bukti yanta dari proses penngkatan <em>sklil</em> yang
+            saya pelajari baik secara mandiri maupun kelas seperti bootcamp WPH,
+            ruang kerja dll.
+          </p>
+          <ul class="skills-list">
+            <li>
+              <strong>Web Programing</strong> Mendalami fondasi HTML, CSS,
+              hingga JavaScript untuk membangun antarmuka web yang interaktif
+            </li>
+            <li>
+              <strong>Graphic Desain</strong> Mengasah kreatifitas dalam
+              pembuatan tataletak visual, kombinasi warna, dan estetika
+            </li>
+            <li>
+              <strong>Cyber Security & Business English</strong> Memperkuat
+              pemahaman keamanan sistem sekaligus meningkatkan kapasitas
+              komunikasi personal
+            </li>
+          </ul>
+        </article>
+
+        <aside class="media-card">
+          <h3>CSS Experiment</h3>
+          <!-- AREA INTERAKTIF -->
+          <div class="media-placeholder">
+            <div class="interactive-box">
+              <span>Hover Me!</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- SECTION 2: SHOCASE / GALERi KARYA -->
+      <section id="showcase" class="slider-section">
+        <h3>Showcase / Galeri Karya</h3>
+        <p class="section-desc">
+          Dokumentasi hasil draf visual, latihan layouting, dan materi
+          presentasi pengembangan diri
+        </p>
+        <div class="slider-container">
+          <!-- MOCKUP SLIDE ITEM -->
+          <div class="slide-item">
+            <span class="slide-badge">Web Design </span>
+            <h4>Sketsa Awal Layout</h4>
+            <p>
+              Implementasi perdana structure HTML Semantik dan eksplorasi CSS
+              Gird
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3. LEARNING TRACKER (3 KOLOM) -->
+      <section id="tracker" class="tables-section">
+        <!-- TABLE 1: WEB DEVELOPMENT -->
+        <div class="table-card">
+          <h3>Web Dev Progress</h3>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Modul / Proyek</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Struktur Semantik HTML</td>
+                  <td><span class="status done">100%</span></td>
+                </tr>
+                <tr>
+                  <td>Smart Header CSS</td>
+                  <td><span class="status done">100%</span></td>
+                </tr>
+                <tr>
+                  <td>Interaktivitas JavaScript</td>
+                  <td><span class="status progress">60%</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TABLE2: CREATIVE & COMMUNICATION -->
+        <div class="table-card">
+          <h3>Creative & Profesional</h3>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Kategori</th>
+                  <th>Aktivitas Belajar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Graphic Desain</td>
+                  <td>Eksperimen Kombinasi Warna UI</td>
+                </tr>
+                <tr>
+                  <td>Business English</td>
+                  <td>Penyusun Script & Public Speaking</td>
+                </tr>
+                <tr>
+                  <td>Cyber Security</td>
+                  <td>Fundamental Dasar Keamanan Jaringan</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TABLE 3: BUG & LOG TRACKER -->
+        <div class="table-card">
+          <h3>Jurnal Log & Solusi Teknis</h3>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Kendala / Bug</th>
+                  <th>Solusi Teknis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Hader amblas saat di-fixed</td>
+                  <td>Gunakan padding-top pada container utama</td>
+                </tr>
+                <tr>
+                  <td>Ukuran file baca melambat</td>
+                  <td>Optimasi struktur pembacaan data dokumen</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="footer-copyright">
+        <p>&copy Web Programing Hack - Netherlands ( WPH - 17 - Fahmi )</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com" target="_blank">Linkedin</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </footer>
+  </body>
 </html>
