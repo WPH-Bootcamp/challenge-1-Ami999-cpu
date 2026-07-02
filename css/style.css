@@ -8,10 +8,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: whitesmoke;
+  background-color: #edede9;
   color: black;
   padding-bottom: 20px;
-  background-image: url(../Asset/BG2.webp);
+  background-image: url(../Asset/BG-A.png);
 }
 
 /* -- MAIN CONTAINER -- */
@@ -32,7 +32,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   z-index: 1000;
-  background-color: #f8f9fa;
+  background-color: #edede9;
   padding: 15px 25px;
   border: 2px solid darkgrey;
   border-radius: 15px;
@@ -50,9 +50,9 @@ body {
 
 .nav-logo {
   text-decoration: none;
-  color: navy;
+  color: black;
   font-weight: 700;
-  font-size: 1, 3rem;
+  font-size: 2rem;
   letter-spacing: -0.5px;
 }
 
@@ -65,7 +65,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 600;
-  border: 2px solid cyan;
+  border: 2px solid #d6ccc2;
   border-radius: 10px;
   padding: 8px 20px;
   transition:
@@ -74,8 +74,8 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: cyan;
-  color: black;
+  background-color: #457b9d;
+  color: white;
 }
 
 /* CALL CENTRE / KONTAK */
@@ -83,18 +83,18 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 600;
-  border: 2px solid green;
+  /* border: 2px solid #1d3557; */
   border-radius: 20px;
   padding: 10px;
   display: flex;
   align-items: center;
   transform: rotate(-3deg);
   transition: all 0.3s ease;
-  background-color: greenyellow;
+  background-color: #d6ccc2;
 }
 
 .nav-call-center:hover {
-  background-color: violet;
+  background-color: #415a77;
   color: white;
 }
 
@@ -117,7 +117,7 @@ body {
   border: 2px solid silver;
   border-radius: 20px;
   padding: 30px;
-  background-color: #f8f9fa;
+  background-color: #edede9;
   box-shadow: 0 4px rgba(0, 0, 0, 0, 02);
 }
 
@@ -128,8 +128,8 @@ body {
 }
 
 .biodata-card .subtitle {
-  font-size: 1.1rem;
-  color: rgb(0, 171, 201);
+  font-size: 1.3rem;
+  color: #735751;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -150,7 +150,7 @@ body {
 }
 /* -- CSS EKSPERIMEN BOX INTERAKTIF " Hover Me! " */
 .media-placeholder {
-  background-color: #f8f9fa;
+  background-color: #edede9;
   border: 2px dashed silver;
   border-radius: 12px;
   height: 240px;
@@ -163,7 +163,7 @@ body {
 .interactive-box {
   width: 100px;
   height: 100px;
-  background-color: rgb(9, 172, 201);
+  background-color: #7bbcbf;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -177,8 +177,10 @@ body {
 
 .interactive-box:hover {
   transform: rotate(45deg) scale(1.1);
-  background-color: rgba(255, 54, 54, 0.909);
+  /* background-color: rgba(255, 54, 54, 0.909); */
   border-radius: 50px;
+  font-size: 16px;
+  background-image: url(../Asset/BG2.webp);
 }
 
 /* -- SHOWCASE / SLIDER SECTION -- */
@@ -188,17 +190,17 @@ body {
   border: 2px solid silver;
   border-radius: 20px;
   padding: 30px;
-  background-color: #f8f9fa;
+  background-color: #edede9;
   margin-bottom: 25px;
 }
 
 .section-desc {
-  color: darkcyan;
+  color: black;
   margin-bottom: 20px;
 }
 
 .slider-container {
-  background-color: darkturquoise;
+  background-color: #d6ccc2;
   border-radius: 12px;
   padding: 30px;
   border: 1px solid silver;
@@ -209,8 +211,8 @@ body {
 }
 
 .slide-badge {
-  background-color: lightcyan;
-  color: darkblue;
+  background-color: #f5ebe0;
+  color: black;
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 0.75rem;
@@ -236,14 +238,14 @@ body {
   border: 2px solid silver;
   border-radius: 20px;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #edede9;
 }
 
 .table-card h3 {
   margin-bottom: 15px;
   font-size: 1.1rem;
   color: black;
-  border-left: 4px solid red;
+  border-left: 4px solid #a78a7f;
   padding-left: 10px;
 }
 
@@ -260,12 +262,12 @@ body {
 th,
 td {
   padding: 12px 10px;
-  border-bottom: 1px solid red;
+  border-bottom: 0.8px solid #a78a7f;
 }
 
 th {
-  background-color: lightcyan;
-  color: darkblue;
+  background-color: #e3d5ca;
+  color: black;
   font-weight: 600;
 }
 
@@ -278,12 +280,12 @@ th {
 }
 
 .status.done {
-  background-color: lightgreen;
+  background-color: #99d98c;
   color: black;
 }
 
 .status.progress {
-  background-color: yellow;
+  background-color: #fbf8cc;
   color: black;
 }
 
@@ -300,8 +302,8 @@ th {
 .footer-socials {
   border: 2px solid silver;
   border-radius: 15px;
-  padding: 15px 25px;
-  background-color: #f8f9fa;
+  padding: 10px 25px;
+  background-color: #edede9;
 }
 
 .footer-copyright {
@@ -325,7 +327,8 @@ th {
 }
 
 .footer-socials a:hover {
-  color: red;
+  color: #735751;
+  font-weight: bold;
 }
 
 /* RESPONSIVE DESIGN */
