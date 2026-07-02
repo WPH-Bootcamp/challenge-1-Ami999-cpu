@@ -12,6 +12,7 @@ body {
   color: black;
   padding-bottom: 20px;
   background-image: url(../Asset/BG-A.png);
+  backdrop-filter: blur(6px);
 }
 
 /* -- MAIN CONTAINER -- */
